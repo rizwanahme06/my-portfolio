@@ -11,9 +11,10 @@
     "next": "^12.1.10"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
   },
   "engines": {
     "node": ">=18.x"
